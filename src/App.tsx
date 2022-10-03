@@ -4,7 +4,7 @@ import { ButtonContainer } from './components/button/ButtonContainer';
 
 export const App = ():JSX.Element => {
   return (
-    <main className="h-screen w-full flex">
+    <main className="h-screen w-full flex flex-col md:flex-row">
       <Options />
       <ButtonContainer />
     </main>

@@ -14,7 +14,7 @@ export const Button = (): JSX.Element => {
 		<>
 			<CopyToClipboard text={copy}>
 				<button className={style || 'normal'} onClick={copiedAlert}>
-					Hello World
+					Click Me!
 				</button>
 			</CopyToClipboard>
 			<ButtonToast />

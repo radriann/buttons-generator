@@ -2,17 +2,17 @@ import { OptionsList } from './OptionsList';
 
 export const Options = (): JSX.Element => {
 	return (
-		<nav className="w-2/4 h-full p-8 bg-white shadow-2xl shadow-black border-2 border-black overflow-auto">
-			<h1 className="text-3xl font-bold font-display text-black border-b-2 border-b-sky-600 w-fit">
+		<nav className="w-full md:w-3/5 lg:w-2/4 h-full p-8 bg-white shadow-2xl shadow-black border-2 border-black overflow-auto">
+			<h1 className="text-3xl md:text-2xl lg:text-3xl font-bold font-display text-black border-b-2 border-b-sky-600 w-fit">
 				Buttons Generator
 			</h1>
 			<h2 className="my-2 text-black font-bold w-fit">
-				Click in the "Hello World" button to copy the styles
+				Click in the "Click Me" button to copy the styles
 			</h2>
 
 			<OptionsList />
 
-			<div className="mt-4">
+			<footer className="mt-4">
 				<span className="font-bold text-black">
 					Coded with ❤ by
 					<a
@@ -22,7 +22,7 @@ export const Options = (): JSX.Element => {
 						lain_ts
 					</a>
 				</span>
-			</div>
+			</footer>
 		</nav>
 	)
 }
