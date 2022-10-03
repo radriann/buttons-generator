@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .items__list {
-  @apply border-2 border-black w-full text-center uppercase p-3 font-bold text-blue-600 font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg hover:bg-black hover:text-white hover:border-white;
+  @apply dark:bg-white dark:hover:text-black dark:hover:border-blue-600 border-2 border-black w-full text-center uppercase p-3 font-bold text-blue-600 font-display text-lg transition-all duration-300 cursor-pointer hover:scale-90 hover:shadow-lg hover:bg-black hover:text-white hover:border-white;
 }
 
 .normal {
-  @apply w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white;
+  @apply w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white dark:text-white;
 }
 
 .shadow {
@@ -15,7 +15,7 @@
 }
 
 .notion {
-  @apply w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none;
+  @apply w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none dark:bg-white;
 }
 
 .windows {

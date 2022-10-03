@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -13,7 +14,7 @@ module.exports = {
         'notion': '4px -2px 0px 0px'
       },
       backgroundImage: {
-        'button-section-bg': "url(/src/assets/button-background.svg)",
+        'button-section-bg': "url(/src/assets/button-bg.svg)",
       }
     },
   },
