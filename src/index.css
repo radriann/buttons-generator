@@ -7,15 +7,15 @@
 }
 
 .normal {
-  @apply w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white dark:text-white;
+  @apply w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white dark:text-white focus:border-black disabled:opacity-80;
 }
 
 .shadow {
-  @apply w-36 h-12 outline-none font-bold bg-red-400 shadow-red-600 shadow-md text-white transition-all duration-300 hover:shadow-lg hover:shadow-red-300 active:shadow-xl active:shadow-red-300;
+  @apply w-36 h-12 outline-none font-bold bg-red-400 shadow-red-600 shadow-md text-white transition-all duration-300 hover:shadow-lg hover:shadow-red-300 active:shadow-xl active:shadow-red-300 focus:rounded-md disabled:opacity-80 disabled:shadow-none;
 }
 
 .notion {
-  @apply w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none dark:bg-white;
+  @apply w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none dark:bg-white focus:shadow-none disabled:opacity-80 disabled:shadow-none;
 }
 
 .windows {
@@ -23,7 +23,7 @@
 }
 
 .cyberpunk {
-  @apply w-36 h-12 text-white bg-rose-600 uppercase tracking-wider shadow-notion shadow-sky-300 font-bold transition-all duration-300 hover:shadow-rose-600 hover:bg-sky-300 hover:text-rose-500 hover:shadow-none;
+  @apply w-36 h-12 text-white bg-rose-600 uppercase tracking-wider shadow-notion shadow-sky-300 font-bold transition-all duration-300 hover:shadow-rose-600 hover:bg-sky-300 hover:text-rose-500 hover:shadow-none focus:bg-rose-700 focus:shadow-notion focus:shadow-sky-600 disabled:opacity-80 disabled:shadow-none;
 }
 
 .btn-scale {

@@ -10,7 +10,7 @@ export const OptionsList = (): JSX.Element => {
 			<ul className="flex flex-col items-center space-y-5 list-none">
 				{buttons.map((button) => (
 					<li
-            			key={button.id}
+						key={button.id}
 						className="items__list"
 						id={button.name}
 						onClick={(e) => changeStyle(e)}>

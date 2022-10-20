@@ -6,7 +6,7 @@ export const Options = (): JSX.Element => {
 			<h1 className="text-3xl md:text-2xl lg:text-3xl font-bold font-display text-black border-b-2 border-b-sky-600 w-fit dark:text-white">
 				Buttons Generator
 			</h1>
-			<h2 className="my-2 text-black dark:text-white font-bold w-fit">
+			<h2 className="my-2 text-black dark:text-white font-medium w-fit">
 				Click in the "Click Me" button to copy the styles
 			</h2>
 

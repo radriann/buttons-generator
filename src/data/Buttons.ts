@@ -17,7 +17,16 @@ export const buttons = [
           button.normal:hover {
             background-color: #000;
             color: #fff;
-          }`
+          }
+          
+          button.normal:focus {
+            border: 1px solid #000;
+          }
+          
+          button.normal:disabled {
+            opacity: 0.8;
+          }
+          `
   },
   {
     id: 2,
@@ -39,6 +48,16 @@ export const buttons = [
           button.shadow:hover {
             box-shadow: 0 10px 15px -3px #dc2626, 0 4px 6px -4px #dc2626;
           }
+
+          button.shadow:focus {
+            border-radius: 10px;
+          }
+
+          button.shadow:disabled {
+            opacity: 0.8;
+            box-shadow: none;
+          }
+
           `
   },
   {
@@ -57,7 +76,17 @@ export const buttons = [
           
           button.notion:hover {
             box-shadow: none;
-          }`
+          }
+          
+          button.notion:focus {
+            box-shadow: none;
+          }
+
+          button.notion:disabled {
+            opacity: 0.8;
+            box-shadow: none;
+          }
+          `
   },
   {
     id: 4,
@@ -103,7 +132,19 @@ export const buttons = [
         box-shadow: none;
         background-color: #7dd3fc;
         color: #e11d48;
-      }`
+      }
+      
+      button.cyberpunk:focus {
+        background-color: rgb(190, 18, 60);
+        box-shadow: 4px -2px 0px 0px #0284c7;
+      }
+
+      button.cyberpunk:disabled {
+        opacity: 0.8;
+        box-shadow: none;
+      }
+
+      `
   },
   {
     id: 6,

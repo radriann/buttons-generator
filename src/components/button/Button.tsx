@@ -1,9 +1,7 @@
 import { useContext } from 'react';
 import { ButtonCtx } from '../../context/ButtonContext';
-
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { copiedAlert } from '../../utils/copiedAlert';
-
 import { ButtonToast } from './ButtonToast';
 
 export const Button = (): JSX.Element => {
@@ -21,4 +19,3 @@ export const Button = (): JSX.Element => {
 		</>
 	)
 }
- 
