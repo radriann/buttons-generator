@@ -7,33 +7,33 @@
 }
 
 .normal {
-  @apply w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white dark:text-white focus:border-black disabled:opacity-80;
+  @apply mt-4 lg:mt-0 w-36 h-12 border-2 font-bold transition-all duration-300 hover:bg-black hover:text-white dark:text-white focus:border-black disabled:opacity-80;
 }
 
 .shadow {
-  @apply w-36 h-12 outline-none font-bold bg-red-400 shadow-red-600 shadow-md text-white transition-all duration-300 hover:shadow-lg hover:shadow-red-300 active:shadow-xl active:shadow-red-300 focus:rounded-md disabled:opacity-80 disabled:shadow-none;
+  @apply mt-4 lg:mt-0 w-36 h-12 outline-none font-bold bg-red-400 shadow-red-600 shadow-md text-white transition-all duration-300 hover:shadow-lg hover:shadow-red-300 active:shadow-xl active:shadow-red-300 focus:rounded-md disabled:opacity-80 disabled:shadow-none;
 }
 
 .notion {
-  @apply w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none dark:bg-white focus:shadow-none disabled:opacity-80 disabled:shadow-none;
+  @apply mt-4 lg:mt-0 w-36 h-12 border-2 border-black shadow-notion font-bold transition-all duration-300 hover:shadow-none dark:bg-white focus:shadow-none disabled:opacity-80 disabled:shadow-none;
 }
 
 .windows {
-  @apply w-36 h-10 border-2 border-t-2 border-t-white border-l-white border-b-black border-r-black bg-gray-300 transition-all duration-300 active:shadow-sm active:shadow-black;
+  @apply mt-4 lg:mt-0 w-36 h-10 border-2 border-t-2 border-t-white border-l-white border-b-black border-r-black bg-gray-300 transition-all duration-300 active:shadow-sm active:shadow-black;
 }
 
 .cyberpunk {
-  @apply w-36 h-12 text-white bg-rose-600 uppercase tracking-wider shadow-notion shadow-sky-300 font-bold transition-all duration-300 hover:shadow-rose-600 hover:bg-sky-300 hover:text-rose-500 hover:shadow-none focus:bg-rose-700 focus:shadow-notion focus:shadow-sky-600 disabled:opacity-80 disabled:shadow-none;
+  @apply mt-4 lg:mt-0 w-36 h-12 text-white bg-rose-600 uppercase tracking-wider shadow-notion shadow-sky-300 font-bold transition-all duration-300 hover:shadow-rose-600 hover:bg-sky-300 hover:text-rose-500 hover:shadow-none focus:bg-rose-700 focus:shadow-notion focus:shadow-sky-600 disabled:opacity-80 disabled:shadow-none;
 }
 
 .btn-scale {
-  @apply w-36 h-12 border-none outline-none font-bold bg-[#3e9fee] text-white transition-all duration-300 hover:scale-90 hover:text-[#3e9fee] hover:bg-white 
+  @apply mt-4 lg:mt-0 w-36 h-12 border-none outline-none font-bold bg-[#3e9fee] text-white transition-all duration-300 hover:scale-90 hover:text-[#3e9fee] hover:bg-white 
 }
 
 .btn-rounded {
-  @apply w-36 h-12 bg-transparent border-2 border-black rounded-xl outline-none font-bold tracking-wide uppercase transition-all duration-300 hover:rounded-none hover:bg-black hover:text-white hover:border-4 hover:border-white
+  @apply mt-4 lg:mt-0 w-36 h-12 bg-transparent border-2 border-black rounded-xl outline-none font-bold tracking-wide uppercase transition-all duration-300 hover:rounded-none hover:bg-black hover:text-white hover:border-4 hover:border-white
 }
 
 .btn-github {
-  @apply w-36 h-12 bg-transparent appearance-none bg-green-600 rounded-md box-border text-white cursor-pointer inline-block text-sm font-semibold leading-5 relative text-center no-underline select-none align-middle hover:bg-green-700
+  @apply mt-4 lg:mt-0 w-36 h-12 bg-transparent appearance-none bg-green-600 rounded-md box-border text-white cursor-pointer inline-block text-sm font-semibold leading-5 relative text-center no-underline select-none align-middle hover:bg-green-700
 }
