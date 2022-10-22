@@ -1,7 +1,9 @@
 export type ButtonContextType = {
     style: string;
     copy: string;
+    disabled: boolean;
     changeStyle: Function;
+    changeDisabled: any;
 }
 
 export type stylesObj = {
