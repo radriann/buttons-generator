@@ -1,12 +1,11 @@
 import { createContext, useState } from 'react';
-import { ButtonContextType, Props, stylesObj } from '../types/ButtonTypes';
 import { buttons } from '../data/Buttons';
 
 const defaultState = {
   style: '',
 	copy: '',
 	disabled: false,
-  changeStyle: (style:'string') => {},
+  changeStyle: (style:string) => {},
 	changeDisabled: () => {},
 }
 
@@ -15,7 +14,7 @@ export const ButtonCtx = createContext<ButtonContextType>(defaultState);
 export const ButtonContextProvider: React.FC<Props> = ({ children }) => {
 	const [style, setStyle] = useState(defaultState.style);
 	const [copy, setCopy] = useState(defaultState.copy);
-	const [disabled, setDisabledAttribute] = useState(false);
+	const [disabled, setDisabledAttribute] = useState(defaultState.disabled);
 
 	const changeStyle = (e: any) => {
 		setStyle(e.target.id);
@@ -26,7 +25,6 @@ export const ButtonContextProvider: React.FC<Props> = ({ children }) => {
 
 	const changeDisabled = () => {
 		disabled === false ? setDisabledAttribute(true) : setDisabledAttribute(false);
-		console.log(disabled);
 	}
 
 	return (

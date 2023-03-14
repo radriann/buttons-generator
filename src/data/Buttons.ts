@@ -1,9 +1,9 @@
-export const buttons = [
+export const buttons:stylesObj[] = [
   {
     id: 1,
     name: 'normal',
     button: 'Button Normal',
-    styles: `button.normal {
+    styles: `.normal {
             width: 140px;
             height: 40px;
             border: 2px solid #000;
@@ -14,16 +14,16 @@ export const buttons = [
             cursor: pointer;
           }
           
-          button.normal:hover {
+          .normal:hover {
             background-color: #000;
             color: #fff;
           }
           
-          button.normal:focus {
+          .normal:focus {
             border: 1px solid #000;
           }
           
-          button.normal:disabled {
+          .normal:disabled {
             opacity: 0.8;
           }
           `
@@ -32,7 +32,7 @@ export const buttons = [
     id: 2,
     name: 'shadow',
     button: 'Button with Shadow',
-    styles: `button.shadow {
+    styles: `.shadow {
             width: 140px;
             height: 40px;
             border: none;
@@ -45,15 +45,15 @@ export const buttons = [
             cursor: pointer;
           }
           
-          button.shadow:hover {
+          .shadow:hover {
             box-shadow: 0 10px 15px -3px #dc2626, 0 4px 6px -4px #dc2626;
           }
 
-          button.shadow:focus {
+          .shadow:focus {
             border-radius: 10px;
           }
 
-          button.shadow:disabled {
+          .shadow:disabled {
             opacity: 0.8;
             box-shadow: none;
           }
@@ -64,7 +64,7 @@ export const buttons = [
     id: 3,
     name: 'notion',
     button: 'Button Notion Style',
-    styles: `button.notion {
+    styles: `.notion {
             width: 140px;
             height: 40px;
             border: 2px solid #000;
@@ -74,15 +74,15 @@ export const buttons = [
             cursor: pointer;
           }
           
-          button.notion:hover {
+          .notion:hover {
             box-shadow: none;
           }
           
-          button.notion:focus {
+          .notion:focus {
             box-shadow: none;
           }
 
-          button.notion:disabled {
+          .notion:disabled {
             opacity: 0.8;
             box-shadow: none;
           }
@@ -92,7 +92,7 @@ export const buttons = [
     id: 4,
     name: 'windows',
     button: 'Button Windows Vista',
-    styles: `button.windows {
+    styles: `.windows {
           width: 140px;
           height: 40px;
           font-weight: 600;
@@ -105,7 +105,7 @@ export const buttons = [
           cursor: pointer;
         }
         
-        button.windows:active {
+        .windows:active {
           box-shadow: 0 1px 2px 0 #000;
         }`
   },
@@ -113,7 +113,7 @@ export const buttons = [
     id: 5,
     name: 'cyberpunk',
     button: "Button Cyberpunk",
-    styles: `button.cyberpunk {
+    styles: `.cyberpunk {
         width: 140px;
         height: 40px;
         color: #fff;
@@ -128,18 +128,18 @@ export const buttons = [
         cursor: pointer;
       }
       
-      button.cyberpunk:hover {
+      .cyberpunk:hover {
         box-shadow: none;
         background-color: #7dd3fc;
         color: #e11d48;
       }
       
-      button.cyberpunk:focus {
+      .cyberpunk:focus {
         background-color: rgb(190, 18, 60);
         box-shadow: 4px -2px 0px 0px #0284c7;
       }
 
-      button.cyberpunk:disabled {
+      .cyberpunk:disabled {
         opacity: 0.8;
         box-shadow: none;
       }
@@ -150,7 +150,7 @@ export const buttons = [
     id: 6,
     name: 'btn-scale',
     button: 'Button with Scale effect',
-    styles: `button.scale-btn {
+    styles: `.scale-btn {
         width: 140px;
         height: 40px;
         border: none;
@@ -162,7 +162,7 @@ export const buttons = [
         transition: .4s ease;
       }
       
-      button.scale-btn:hover {
+      .scale-btn:hover {
         transform: scale(0.8);
         border: 2px solid #3e9fee;
         color: #3e9fee;
@@ -173,7 +173,7 @@ export const buttons = [
     id: 7,
     name: 'btn-rounded',
     button: 'Rounded/Rect Borders',
-    styles: `button.btn-rounded {
+    styles: `.btn-rounded {
         width: 140px;
         height: 40px;
         background-color: transparent;
@@ -187,7 +187,7 @@ export const buttons = [
         transition: all .3s ease;
       }
       
-      button.btn-rounded:hover {
+      .btn-rounded:hover {
         border-radius: 0px;
         background-color: #000;
         color: #fff;
@@ -198,7 +198,7 @@ export const buttons = [
     id: 8,
     name: 'btn-github',
     button: 'Github Style Button',
-    styles: `button.btn-github {
+    styles: `.btn-github {
         appearance: none;
         background-color: #2ea44f;
         border: 1px solid rgba(27, 31, 35, .15);
@@ -222,28 +222,28 @@ export const buttons = [
         white-space: nowrap;
       }
 
-      button.btn-github:focus:not(:focus-visible):not(.focus-visible) {
+      .btn-github:focus:not(:focus-visible):not(.focus-visible) {
         box-shadow: none;
         outline: none;
       }
 
-      button.btn-github:hover {
+      .btn-github:hover {
         background-color: #2c974b;
       }
 
-      button.btn-github:focus {
+      .btn-github:focus {
         box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
         outline: none;
       }
 
-      button.btn-github:disabled {
+      .btn-github:disabled {
         background-color: #94d3a2;
         border-color: rgba(27, 31, 35, .1);
         color: rgba(255, 255, 255, .8);
         cursor: default;
       }
 
-      button.btn-github:active {
+      .btn-github:active {
         background-color: #298e46;
         box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
       }`

@@ -1,4 +1,4 @@
-import { useContext, useRef } from 'react';
+import { useContext } from 'react';
 import { ButtonCtx } from '../../context/ButtonContext';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { copiedAlert } from '../../utils/copiedAlert';
